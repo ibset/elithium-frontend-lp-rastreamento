@@ -35,13 +35,13 @@ button {
 }
 
 .cta-green {
-    background: #00FFAD;
+    background: #008cff;
     color: #192440;
 }
 
 .cta-green:hover {
     color: #ffffff;
-    background: #00e69c;
+    background: #008cff;
 }
 
 .cta-blue {
@@ -84,15 +84,15 @@ button {
 }
 
 #feature-first {
-    background: linear-gradient(168deg, #ffffff 55%, #00FFAD 0);
+    background: linear-gradient(168deg, #ffffff 55%, #008cff 0);
 }
 
 #feature-last {
-    background: #00FFAD;
+    background: #008cff;
 }
 
 #feature-last2 {
-    background: linear-gradient(12deg, #ffffff 55%, #00FFAD 0);
+    background: linear-gradient(12deg, #ffffff 55%, #008cff 0);
 }
 
 /********** price table **********/
@@ -120,13 +120,13 @@ button {
 }
 
 #contact form {
-    color: #00FFAD;
+    color: #008cff;
 }
 
 #contact form input,
 #contact form textarea {
     background: transparent;
-    border: 1px solid #00FFAD;
+    border: 1px solid #008cff;
     color: #ffffff;
 }
 
@@ -151,7 +151,7 @@ button {
 }
 
 #copyright #social-media a:hover {
-    background: #00FFAD;
+    background: #008cff;
 }
 
 #copyright #social-media a:hover i {
