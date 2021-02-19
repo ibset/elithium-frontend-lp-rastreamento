@@ -91,6 +91,10 @@ button {
     background: #00FFAD;
 }
 
+#feature-last2 {
+    background: linear-gradient(12deg, #ffffff 55%, #00FFAD 0);
+}
+
 /********** price table **********/
 #price-table {
     padding-top: 4rem !important;
