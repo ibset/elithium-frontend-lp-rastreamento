@@ -41,7 +41,8 @@ button {
 
 .cta-green:hover {
     color: #ffffff;
-    background: #008cff;
+    background: #ff8800;
+    
 }
 
 .cta-blue {
@@ -166,5 +167,28 @@ button {
 @media (max-width: 575px) {
     #banner h1 {
         font-size: 3.6rem;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 600px){
+    .jumbotron {
+        overflow: hidden;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1500px){
+    .jumbotron {
+        overflow: hidden;
+    }
+}
+@media only screen and (min-width: 0px) and (max-width: 600px){
+    .container {
+        overflow: hidden;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1500px){
+    .container {
+        overflow: hidden;
     }
 }
