@@ -206,7 +206,7 @@ button {
 }
 
 #feature-first {
-    background: linear-gradient(168deg, #ffffff 55%, #008cff 0);
+    background: linear-gradient(168deg, #ffffff 50%, #008cff 0);
 }
 
 #feature-last {
@@ -214,7 +214,7 @@ button {
 }
 
 #feature-last2 {
-    background: linear-gradient(12deg, #ffffff 55%, #008cff 0);
+    background: linear-gradient(24deg, #ffffff 80%, #008cff 0);
 }
 
 /********** price table **********/
