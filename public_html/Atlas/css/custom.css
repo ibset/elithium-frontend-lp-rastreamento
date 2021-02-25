@@ -357,6 +357,6 @@ button {
     line-height: 50px;
 }
 
-html{
+html, body{
     scroll-behavior: smooth;
 }
