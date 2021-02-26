@@ -2,20 +2,6 @@
 <html>
 
 <head>
-    <style>
-        #btnTop {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            height: 70px;
-            width: 70px;
-            color: #fff;
-            background: #fff;
-            border: none;
-            border-radius: 50vh;
-            scroll-behavior: smooth;
-        }
-    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Elithium - Soluções Inteligentes</title>
@@ -55,7 +41,8 @@
                         <li class="menu-item  active atlas-cta2"><a href="#valores" data-scroll>PLANOS</a></li>
                         <li class="menu-item  atlas-cta2"><a href="#contato" data-scroll>CONTATO</a></li>
                         <li class="menu-item  atlas-cta2"><a href="#ferramentas" data-scroll>FERRAMENTAS</a></li>
-                        <li class="menu-item  atlas-cta2"><a href="http://elithium.com.br" target=_blank data-scroll>PESSOA JURÍDICA</a></li>
+                        <li class="menu-item  atlas-cta2"><a href="http://elithium.com.br" target=_blank
+                                data-scroll>PESSOA JURÍDICA</a></li>
                     </ul>
                 </nav>
                 <script src="js/fastclick.js"></script>
@@ -72,10 +59,10 @@
                     class="lead text-white my-4" style="text-shadow: 2px 2px 2px rgb(0 0 0); font-size: 23px;">
                     Localize o seu veículo rapidamente em caso de roubo ou furto com nossa Central 24h, ou acione o
                     Botão de Panico em casos de sequestro ou situação de risco.
-            </h1>
+                </h1>
                 <a href="http://bit.ly/3pmqSKp" target="_blank" data-aos="fade" data-aos-easing="linear"
-                    data-aos-duration="1000" data-aos-once="true"
-                    class="btn my-4 font-weight-bold atlas-cta cta-green" style="margin-bottom: 50px;">Teste Grátis</a>
+                    data-aos-duration="1000" data-aos-once="true" class="btn my-4 font-weight-bold atlas-cta cta-green"
+                    style="margin-bottom: 50px;">Teste Grátis</a>
             </div>
         </div>
     </div>
@@ -195,7 +182,7 @@
                     </p>
                     <p class="my-4" style="color: white;">
                         <i>
-                            * Consulte um de nossos especialistas para outros beneficios.
+                            * Consulte um de nossos especialistas para outros benefícios.
                         </i>
                     </p>
                     <a href="http://bit.ly/3pmqSKp" target="_blank"
@@ -310,9 +297,6 @@
             </div>
         </div>
     </div>
-    <div>
-        <button onclick="backToTop()" id="btnTop" style="scroll-behavior: initial;"><img src="img/seta.png"></button>
-    </div>
     <!-- copyright -->
     <div class="jumbotron jumbotron-fluid parallax" id="copyright" style="background-image: url(img/0003.png)">
         <div class="container">
@@ -346,22 +330,25 @@
         AOS.init({
         });
     </script>
-    <script>
-        window.onscroll = function () {
-            scroll();
-        };
-        function scroll() {
-            let btn = document.getElementById("btnTop");
-            if (document.documentElement.scrollTop > 50) {
-                btn.style.display = "block";
-            } else {
-                btn.style.display = "none";
-            }
-        }
-        function backToTop() {
-            document.documentElement.scrollTop = 0;
+    <script type="text/javascript">
+        function openWhatsAppWeb() {
+            window.open(
+                "https://api.whatsapp.com/send?phone=5515996114041",
+                "_blank"
+            );
         }
     </script>
+    <div id="whatsapp" onclick="openWhatsAppWeb()" style="
+          position: fixed;
+          bottom: 20px;
+          right: 5px;
+          cursor: pointer;
+          z-index: 99999999;
+          width: 70px;
+          height: 70px;
+          background: url('img/whatsapp.svg') no-repeat center center;
+          background-size: 60px;
+        "></div>
 
 </body>
 
